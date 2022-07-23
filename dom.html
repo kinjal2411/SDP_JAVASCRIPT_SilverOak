@@ -1,0 +1,34 @@
+<html>
+<head>
+    <title>Dom Example</title>
+    
+</head>
+<body>
+    <h1>Hello World</h1>
+    <h1>Hello Universe</h1>
+    <h1>Hello Earth</h1>
+    <p id="demo">Hello World</p>
+    <ul>
+        <li class="cl">List-1</li>
+        <li id="l2">List-2</li>
+        <li class="cl">List-3</li>
+    </ul>
+
+    <script>
+        document.getElementById("demo").innerHTML = "Hello Students";
+        
+        document.getElementsByClassName("cl")[0].innerHTML="Unorder List";
+
+        document.getElementsByTagName("h1")[1].innerHTML="Hello Guys!!!!";
+
+        document.getElementById("demo").style.color = "Red";
+
+        document.getElementById("demo").style.fontSize = "24px";
+
+        document.getElementsByClassName("cl")[1].style.color="Blue";
+
+        document.getElementsByTagName("h1")[2].style.fontFamily="verdana";
+        document.getElementsByTagName("h1")[1].style.fontStyle="Italic";
+    </script>
+</body>
+</html>
